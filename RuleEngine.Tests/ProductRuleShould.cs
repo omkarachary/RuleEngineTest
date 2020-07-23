@@ -10,7 +10,7 @@ namespace RuleEngine.Tests
         [Fact]
         public void SatifyIfItemTypeInOrderIsAPhysicalProduct()
         {
-            var item=new Item{Id=1,ItemType=ItemType.PhysicalProduct,Name="someProduct"};
+            var item=new Item{Id=1,ItemType=ItemType.PhysicalProduct,Name="S    ome Product"};
 
             var productRule=new PhysicalProductRule();
 
@@ -42,11 +42,13 @@ namespace RuleEngine.Tests
             var actual=productRule.Apply(item);
 
             Assert.IsType(typeof(RuleLog), actual);
+            Assert.Equal("Physical Product Rule", actual.RuleName);
+
         }
 
         
                  [Fact]
-        public void GeneratesAPackageSlipForItem()
+        public void GeneratesAPackageSlipForShipping()
         {
             var item=new Item{Id=1,ItemType=ItemType.PhysicalProduct,Name="someProduct"};
 
@@ -54,7 +56,19 @@ namespace RuleEngine.Tests
 
             var actual=productRule.Apply(item);
 
-            Assert.Equal("Package Slip Generated",actual.Activity);
+            Assert.Contains("Package Slip generated for Shipping",actual.Activity);
+        }
+
+                   [Fact]
+        public void GeneratesACommissionForAgent()
+        {
+            var item=new Item{Id=1,ItemType=ItemType.PhysicalProduct,Name="someProduct"};
+
+            var productRule=new PhysicalProductRule();
+
+            var actual=productRule.Apply(item);
+
+            Assert.Contains("Commission payment generated for Agent",actual.Activity);
         }
     }
 }

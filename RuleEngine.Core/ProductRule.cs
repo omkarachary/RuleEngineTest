@@ -13,7 +13,7 @@ namespace RuleEngine.Core
 
         public RuleLog Apply(Item item)
         {
-           return new RuleLog{RuleName="Physical Product Rule" ,Activity="Package Slip Generated"};
+           return new RuleLog{RuleName="Physical Product Rule" ,Activity="Package Slip generated for Shipping & Commission payment generated for Agent"};
         }
     }
 }

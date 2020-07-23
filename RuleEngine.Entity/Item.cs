@@ -8,8 +8,8 @@ namespace RuleEngine.Entity
     }
 
     public enum ItemType{
-        Membership=1,
-        MembershipUpgrade,
+        MemberShip=1,
+        MemberShipUpgrade,
         Book,
         Video,
         PhysicalProduct,
