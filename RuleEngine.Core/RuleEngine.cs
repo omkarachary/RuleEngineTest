@@ -9,7 +9,6 @@ namespace RuleEngine.Core
         public RuleEvaluator(IEnumerable<IPaymentRule> rules)
         {
             this.rules = rules;
-
         }
         public IList<RuleLog> Run(Payment payment)
         {

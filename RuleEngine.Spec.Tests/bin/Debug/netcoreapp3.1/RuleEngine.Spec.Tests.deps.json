@@ -6,9 +6,11 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "RuleEngine.Specs/1.0.0": {
+      "RuleEngine.Spec.Tests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.5.0",
+          "RuleEngine.Core": "1.0.0",
+          "RuleEngine.Entity": "1.0.0",
           "SpecFlow.Tools.MsBuild.Generation": "3.3.57",
           "SpecFlow.xUnit": "3.3.57",
           "coverlet.collector": "1.2.0",
@@ -16,7 +18,7 @@
           "xunit.runner.visualstudio": "2.4.0"
         },
         "runtime": {
-          "RuleEngine.Specs.dll": {}
+          "RuleEngine.Spec.Tests.dll": {}
         }
       },
       "BoDi/1.4.1": {
@@ -1243,11 +1245,24 @@
             "fileVersion": "1.3.12.62151"
           }
         }
+      },
+      "RuleEngine.Core/1.0.0": {
+        "dependencies": {
+          "RuleEngine.Entity": "1.0.0"
+        },
+        "runtime": {
+          "RuleEngine.Core.dll": {}
+        }
+      },
+      "RuleEngine.Entity/1.0.0": {
+        "runtime": {
+          "RuleEngine.Entity.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "RuleEngine.Specs/1.0.0": {
+    "RuleEngine.Spec.Tests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2000,6 +2015,16 @@
       "sha512": "sha512-CQETcfKyEq6Uki9pExNZI5sEHeKqdt9Fc4pdLHu1mgaboQp0aI4W45M+UUnG6Zc2hxWTDmbD2AFVKA1wjU19YA==",
       "path": "xunit.skippablefact/1.3.12",
       "hashPath": "xunit.skippablefact.1.3.12.nupkg.sha512"
+    },
+    "RuleEngine.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RuleEngine.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

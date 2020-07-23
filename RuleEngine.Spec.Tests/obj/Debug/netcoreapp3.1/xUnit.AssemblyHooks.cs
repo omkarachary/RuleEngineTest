@@ -2,16 +2,16 @@
 using System.CodeDom.Compiler;
 
 [assembly: global::Xunit.TestFramework("TechTalk.SpecFlow.xUnit.SpecFlowPlugin.XunitTestFrameworkWithAssemblyFixture", "TechTalk.SpecFlow.xUnit.SpecFlowPlugin")]
-[assembly: global::TechTalk.SpecFlow.xUnit.SpecFlowPlugin.AssemblyFixture(typeof(global::RuleEngine_Specs_XUnitAssemblyFixture))]
+[assembly: global::TechTalk.SpecFlow.xUnit.SpecFlowPlugin.AssemblyFixture(typeof(global::RuleEngine_Spec_Tests_XUnitAssemblyFixture))]
 
 [GeneratedCode("SpecFlow", "3.3.57")]
-public class RuleEngine_Specs_XUnitAssemblyFixture : global::System.IDisposable
+public class RuleEngine_Spec_Tests_XUnitAssemblyFixture : global::System.IDisposable
 {
     private readonly global::System.Reflection.Assembly _currentAssembly;
 
-    public RuleEngine_Specs_XUnitAssemblyFixture()
+    public RuleEngine_Spec_Tests_XUnitAssemblyFixture()
     {
-        _currentAssembly = typeof(RuleEngine_Specs_XUnitAssemblyFixture).Assembly;
+        _currentAssembly = typeof(RuleEngine_Spec_Tests_XUnitAssemblyFixture).Assembly;
         global::TechTalk.SpecFlow.TestRunnerManager.OnTestRunStart(_currentAssembly);
     }
 

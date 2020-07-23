@@ -67,7 +67,7 @@ namespace RuleEngine.Tests
 
             var actual=rule.Apply(item);
 
-            Assert.Contains("Informed Owner of Upgradatio",actual.Activity);
+            Assert.Contains("Informed Owner of Upgradation",actual.Activity);
         }
         
     }

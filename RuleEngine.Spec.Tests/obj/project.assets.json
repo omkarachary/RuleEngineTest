@@ -1869,6 +1869,29 @@
         "runtime": {
           "lib/netstandard1.1/Xunit.SkippableFact.dll": {}
         }
+      },
+      "RuleEngine.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RuleEngine.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RuleEngine.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RuleEngine.Core.dll": {}
+        }
+      },
+      "RuleEngine.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RuleEngine.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RuleEngine.Entity.dll": {}
+        }
       }
     }
   },
@@ -6318,11 +6341,23 @@
         "xunit.skippablefact.1.3.12.nupkg.sha512",
         "xunit.skippablefact.nuspec"
       ]
+    },
+    "RuleEngine.Core/1.0.0": {
+      "type": "project",
+      "path": "../RuleEngine.Core/RuleEngine.Core.csproj",
+      "msbuildProject": "../RuleEngine.Core/RuleEngine.Core.csproj"
+    },
+    "RuleEngine.Entity/1.0.0": {
+      "type": "project",
+      "path": "../RuleEngine.Entity/RuleEngine.Entity.csproj",
+      "msbuildProject": "../RuleEngine.Entity/RuleEngine.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "RuleEngine.Core >= 1.0.0",
+      "RuleEngine.Entity >= 1.0.0",
       "SpecFlow.Tools.MsBuild.Generation >= 3.3.57",
       "SpecFlow.xunit >= 3.3.57",
       "coverlet.collector >= 1.2.0",
@@ -6337,11 +6372,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\RuleEngineTestCode\\RuleEngine.Specs\\RuleEngine.Specs.csproj",
-      "projectName": "RuleEngine.Specs",
-      "projectPath": "D:\\Code\\RuleEngineTestCode\\RuleEngine.Specs\\RuleEngine.Specs.csproj",
+      "projectUniqueName": "d:\\Code\\RuleEngineTestCode\\RuleEngine.Spec.Tests\\RuleEngine.Spec.Tests.csproj",
+      "projectName": "RuleEngine.Spec.Tests",
+      "projectPath": "d:\\Code\\RuleEngineTestCode\\RuleEngine.Spec.Tests\\RuleEngine.Spec.Tests.csproj",
       "packagesPath": "C:\\Users\\Chandrashekarachary\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\RuleEngineTestCode\\RuleEngine.Specs\\obj\\",
+      "outputPath": "d:\\Code\\RuleEngineTestCode\\RuleEngine.Spec.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6357,7 +6392,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "d:\\Code\\RuleEngineTestCode\\RuleEngine.Core\\RuleEngine.Core.csproj": {
+              "projectPath": "d:\\Code\\RuleEngineTestCode\\RuleEngine.Core\\RuleEngine.Core.csproj"
+            },
+            "d:\\Code\\RuleEngineTestCode\\RuleEngine.Entity\\RuleEngine.Entity.csproj": {
+              "projectPath": "d:\\Code\\RuleEngineTestCode\\RuleEngine.Entity\\RuleEngine.Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

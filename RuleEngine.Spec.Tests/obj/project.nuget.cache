@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ka+si/nOFpMnZNFoZaQBybBUlBSYFBefdEZmPBfWqaTrjRsk1eEmk0VFo+7B3tz0fBdFkGYSj6vuJTZc0voDkA==",
+  "dgSpecHash": "EDmhIvb+FlQ4Z7v1oRYfp3FYnf3SuA3QhQmSYjVYUVKGYaA6jj74ZRcb/QifP/AGlXopj44vIycFicav3hdCEw==",
   "success": true,
-  "projectFilePath": "D:\\Code\\RuleEngineTestCode\\RuleEngine.Specs\\RuleEngine.Specs.csproj",
+  "projectFilePath": "d:\\Code\\RuleEngineTestCode\\RuleEngine.Spec.Tests\\RuleEngine.Spec.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Chandrashekarachary\\.nuget\\packages\\bodi\\1.4.1\\bodi.1.4.1.nupkg.sha512",
     "C:\\Users\\Chandrashekarachary\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
