@@ -1,0 +1,12 @@
+d:\Code\RuleEngineTestCode\RuleEngine.Core\bin\Debug\netstandard2.0\RuleEngine.Core.deps.json
+d:\Code\RuleEngineTestCode\RuleEngine.Core\bin\Debug\netstandard2.0\RuleEngine.Core.dll
+d:\Code\RuleEngineTestCode\RuleEngine.Core\bin\Debug\netstandard2.0\RuleEngine.Core.pdb
+d:\Code\RuleEngineTestCode\RuleEngine.Core\bin\Debug\netstandard2.0\RuleEngine.Entity.dll
+d:\Code\RuleEngineTestCode\RuleEngine.Core\bin\Debug\netstandard2.0\RuleEngine.Entity.pdb
+d:\Code\RuleEngineTestCode\RuleEngine.Core\obj\Debug\netstandard2.0\RuleEngine.Core.csprojAssemblyReference.cache
+d:\Code\RuleEngineTestCode\RuleEngine.Core\obj\Debug\netstandard2.0\RuleEngine.Core.AssemblyInfoInputs.cache
+d:\Code\RuleEngineTestCode\RuleEngine.Core\obj\Debug\netstandard2.0\RuleEngine.Core.AssemblyInfo.cs
+d:\Code\RuleEngineTestCode\RuleEngine.Core\obj\Debug\netstandard2.0\RuleEngine.Core.csproj.CoreCompileInputs.cache
+d:\Code\RuleEngineTestCode\RuleEngine.Core\obj\Debug\netstandard2.0\RuleEngine.Core.csproj.CopyComplete
+d:\Code\RuleEngineTestCode\RuleEngine.Core\obj\Debug\netstandard2.0\RuleEngine.Core.dll
+d:\Code\RuleEngineTestCode\RuleEngine.Core\obj\Debug\netstandard2.0\RuleEngine.Core.pdb

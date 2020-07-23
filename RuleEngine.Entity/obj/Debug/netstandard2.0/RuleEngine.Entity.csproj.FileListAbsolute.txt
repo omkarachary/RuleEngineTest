@@ -1,0 +1,9 @@
+d:\Code\RuleEngineTestCode\RuleEngine.Entity\bin\Debug\netstandard2.0\RuleEngine.Entity.deps.json
+d:\Code\RuleEngineTestCode\RuleEngine.Entity\bin\Debug\netstandard2.0\RuleEngine.Entity.dll
+d:\Code\RuleEngineTestCode\RuleEngine.Entity\bin\Debug\netstandard2.0\RuleEngine.Entity.pdb
+d:\Code\RuleEngineTestCode\RuleEngine.Entity\obj\Debug\netstandard2.0\RuleEngine.Entity.csprojAssemblyReference.cache
+d:\Code\RuleEngineTestCode\RuleEngine.Entity\obj\Debug\netstandard2.0\RuleEngine.Entity.AssemblyInfoInputs.cache
+d:\Code\RuleEngineTestCode\RuleEngine.Entity\obj\Debug\netstandard2.0\RuleEngine.Entity.AssemblyInfo.cs
+d:\Code\RuleEngineTestCode\RuleEngine.Entity\obj\Debug\netstandard2.0\RuleEngine.Entity.csproj.CoreCompileInputs.cache
+d:\Code\RuleEngineTestCode\RuleEngine.Entity\obj\Debug\netstandard2.0\RuleEngine.Entity.dll
+d:\Code\RuleEngineTestCode\RuleEngine.Entity\obj\Debug\netstandard2.0\RuleEngine.Entity.pdb

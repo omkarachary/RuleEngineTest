@@ -1,0 +1,4 @@
+RuleEngine.Tests.RuleEvaluatorShould.RunRulesOnAnOrderAndReturnRuleLog
+RuleEngine.Tests.RuleEvaluatorShould.ReturnsEmptyLogIfnoRules
+RuleEngine.Tests.RuleEvaluatorShould.ApplyApplicableRules
+RuleEngine.Tests.RuleEvaluatorShould.SkipNotApplicableRules
